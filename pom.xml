@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mrsandwich</groupId>
-	<artifactId>OrderSandwich</artifactId>
+	<artifactId>ordersandwich</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>OrderSandwich</name>
+	<name>ordersandwich</name>
 	<description>Order Sandwich Application</description>
 
 	<properties>
