@@ -1,5 +1,6 @@
 package com.mrsandwich.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -22,7 +23,8 @@ public class User {
 	private Integer userId;
 	private String name;
 	private String emailAddress;
-	private String phoneNumber;
+	@Column(unique=true)
+	private Long phoneNumber;
 	private String password;
 	private String address1;
 	private String address2;
